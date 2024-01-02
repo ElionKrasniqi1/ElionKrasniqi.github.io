@@ -1,0 +1,42 @@
+#Shoes-Website {
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 3px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+img {
+    width: 100%;
+    background-color: white;
+}
+.row {
+    padding: 0;
+    margin: 20px auto; /* për të qendruar në qendër */
+    max-width: 950px; /* për të kontrolluar gjerësinë maksimale */
+}
+
+.card {
+    margin-bottom: 20px;
+    
+}

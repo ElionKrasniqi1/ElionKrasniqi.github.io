@@ -1,0 +1,131 @@
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    background-color: lightseagreen;
+}
+nav a {
+    text-decoration: none;
+    padding-left: 40px;
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .06em;
+    transition:.1s;
+    margin-top: 14px;
+    
+}
+nav a:hover{
+    color: black;
+}
+header:hover{       
+    color: transparent  ;
+}
+#Shoes{
+    text-decoration: none;
+    padding-left: 40px;
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .06em;
+    transition:.1s;
+    margin-top: 3px;
+}
+#Shoes:hover{
+    color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 15px;
+}
+.ek-background-image {
+    background-image: url('background.jpg');
+    background-size: cover;
+    height: 750px;
+    background-position: bottom;
+    background-attachment: fixed; 
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.ek-shoes-items {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto -25px auto;
+    width: 75%;
+} 
+.ek-shoes-item {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    text-align: center; 
+    font-family: 'Raleway', sans-serif; 
+    transition:.1s;
+}
+.ek-shoes-item img {
+    width: 300px;
+    border: 5px solid white; 
+    padding: 0;
+}
+#ek-shoes{
+    background-color: lightseagreen;
+}
+h2{
+    text-align: center;
+}
+#Shoes{
+   background-color: transparent;
+   color: white;
+   font-family: 'Raleway', sans-serif;
+   font-weight: bold;
+   border: 0px solid transparent; /* Shtoni këtë për vijën */
+}   
+h3{
+    color: white;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+th, td {
+    padding: 10px;
+}
+th {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .container {
+        width: 90%; 
+    }
+    
+    .one-third {
+        flex-direction: column; 
+        margin-left: 0; 
+        margin-right: 0; 
+    }
+}
+
+@media (min-width: 768px) {
+}
